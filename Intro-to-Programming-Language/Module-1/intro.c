@@ -16,4 +16,9 @@ int main(){
 
     bool isTrue= true;
     printf("%d\n", isTrue);
+
+    int n;
+    scanf("%d", &n);
+    printf("%d\n", n);
+    
 }
