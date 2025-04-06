@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a = 10;
+    int a = 18;
     int b = 5;
     printf("%d\n", a+b); // Addition
     printf("%d\n", a-b); // Subtraction
