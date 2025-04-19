@@ -11,7 +11,7 @@ int main(){
         printf("%d ",array[i]);
     }
     // reverse array
-    for(int i=n-1;i<=0;i--){
+    for(int i=n-1;i>=0;i--){
         printf("%d ",array[i]);
     }
 }
