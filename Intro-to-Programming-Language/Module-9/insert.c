@@ -9,6 +9,7 @@ int main(){
 
     int index, index_value;
     scanf("%d %d",&index,&index_value);
+
     for(int i=n;i>=index+1;i--){
         array[i]=array[i-1];
     }
