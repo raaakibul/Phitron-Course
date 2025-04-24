@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    char ch[5]; //char array
-    scanf("%c", &ch);
-    printf("%s",ch);
+    // char ch[10]; //char array
+    // scanf("%s", &ch);
+    // printf("%s",ch);
 
 
     // for(int i=0;i<4;i++){
@@ -11,5 +11,9 @@ int main(){
     // for(int i=0;i<4;i++){
     //     printf("%c\n",ch[i]);
     // }
+
+    char s[50];
+    gets(s);
+    printf("%s",s);
     return 0;
 }
