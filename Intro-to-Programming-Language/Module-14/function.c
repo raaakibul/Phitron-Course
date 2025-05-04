@@ -9,9 +9,11 @@ int subtraction(int num1, int num2){
     return result;
 }
 int main(){
-    int add = sum(10,20);
-    int sub = subtraction(20,10);
-    printf("%d", add);
-    printf("%d", sub);
+    int a,b;
+    scanf("%d %d",&a, &b);
+    int add = sum(a,b);
+    int sub = subtraction(a,b);
+    printf("%d\n", add);
+    printf("%d\n", sub);
     return 0;
 }
