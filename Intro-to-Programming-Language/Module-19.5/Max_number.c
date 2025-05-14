@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<limits.h>
 int fun(int a[],int n,int i);
-int main()
-{
+int main(){
+    
     int n;
     scanf("%d",&n);
     int array[n];
