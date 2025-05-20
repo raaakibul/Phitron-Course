@@ -9,7 +9,7 @@ int main(){
 
     long long int sum=0;
     for(int i=0;i<n;i++){
-        sum=sum+ar[i];
+        sum=sum+array[i];
     }
     if (sum<=0){
         printf("%lld\n",sum*-1);
