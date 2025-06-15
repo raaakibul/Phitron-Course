@@ -13,9 +13,10 @@ int main(){
         int count =0;
         for(int i=0;i<n;i++){
             if(a[i]==x){
-                count =1;
+                count =1; //time complexity = O(n)
             }
         }
+        
         if(count==1){
             cout << "found" << endl;
         }
