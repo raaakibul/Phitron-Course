@@ -1,6 +1,9 @@
-constant: O(1)
-Linear: O(N)
-logarithm: O(logN)
-square root: O(sqrt(N*N))
-quadratic: O(N*N)
-Linearithmic:O(NlogN)
+N = 1000               operation
+constant:    O(1)        -> 1
+Linear:      O(N)        -> 1000
+logarithm:   O(logN)     -> 10
+square root: O(sqrt(N))  -> 32
+quadratic:   O(N*N)      -> 1000000
+Linearithmic:O(NlogN)    ->10000
+
+Best to worst: O(1)> O(logN)> O(sqrt(N))>O(N)>O(NlogN)>O(N*N) 
