@@ -1,2 +1,4 @@
 test file
 
+git waring 
+git config --global core.autocrlf false
