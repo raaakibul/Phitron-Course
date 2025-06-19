@@ -1,4 +1,4 @@
-N = 1000               operation
+N = 1000               operations
 constant:    O(1)        -> 1
 Linear:      O(N)        -> 1000
 logarithm:   O(logN)     -> 10
@@ -6,4 +6,4 @@ square root: O(sqrt(N))  -> 32
 quadratic:   O(N*N)      -> 1000000
 Linearithmic:O(NlogN)    ->10000
 
-Best to worst: O(1)> O(logN)> O(sqrt(N))>O(N)>O(NlogN)>O(N*N) 
+Best to worst: O(1)> O(logN)> O(sqrt(N))>O(N)>O(NlogN)>O(N*N)
