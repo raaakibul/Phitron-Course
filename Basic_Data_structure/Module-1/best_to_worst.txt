@@ -1,4 +1,4 @@
-N = 1000               operations
+N = 1000               operations(n)
 constant:    O(1)        -> 1
 Linear:      O(N)        -> 1000
 logarithm:   O(logN)     -> 10
