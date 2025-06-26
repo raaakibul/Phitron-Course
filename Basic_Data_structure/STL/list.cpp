@@ -31,5 +31,14 @@ int main(){
     for(auto it:li){
         cout << it << " ";
     }
+
+    list<int> li = {1,2,3,4,5,6};
+    list<int> :: iterator it;
+    it = li.begin();
+    advance(it,3);
+    li.erase(it);
+    for(auto it : li){
+        cout << it << " ";
+    }
     return 0;
 }
