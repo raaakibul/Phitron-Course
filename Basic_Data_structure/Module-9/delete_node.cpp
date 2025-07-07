@@ -124,6 +124,7 @@ void reverse_list(Node *tail)
 int main(){
     Node *head = NULL;
     Node *tail = NULL;
+    int val;
     while (cin >> val){
         if (val == -1)
             break;
