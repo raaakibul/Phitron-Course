@@ -10,12 +10,12 @@ void fun(){
 }
 int main(){
 
-    // int x =100;
-    // cout << x <<endl;
+    int x =100;
+    cout << x <<endl;
 
-    // int *p = new int;
-    // *p = 10;
-    // cout << *p << endl;
+    int *p = new int;
+    *p = 10;
+    cout << *p << endl;
 
     fun();
     cout << "Main--->" << *p << endl;
