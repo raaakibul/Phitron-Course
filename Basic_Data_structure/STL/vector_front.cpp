@@ -13,6 +13,14 @@ int main(){
     cout << v.front() << endl;
     cout << v.back() << endl;
 
-    // v.clear();
+    v.clear();
+    cout << v.size() <<endl;
+
+    if(v.empty()){
+        cout << "Empty";
+    }
+    else{
+        cout << "Not empty";
+    }
     return 0;
 }
