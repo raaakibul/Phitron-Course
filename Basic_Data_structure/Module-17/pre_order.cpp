@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Node {
+class Node{
     public:
     int value;
     Node* left;
@@ -12,6 +12,20 @@ class Node {
         this->right=NULL;
     }
 };
+
+void preOrder(Node*root){
+
+    if(root == NULL){
+         return;
+    }
+
+    cout << root->value << " ";
+
+    preOrder(root->left);
+
+    preOrder(root->right);
+
+}
 
 int main(){
 
@@ -35,6 +49,8 @@ int main(){
     b->right=d;
     d->left=f;
     f->right=g;
+
+    preOrder(root);
 
     return 0;
 }
