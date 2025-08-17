@@ -12,7 +12,7 @@ int main(){
         mat[A].push_back(B);
         mat[B].push_back(A);
     }
-    for (int i = 0; i < mat[3].size(); i++){
+    for(int i=0;i<mat[3].size();i++){
         cout << mat[3][i] << " ";
     }
 
