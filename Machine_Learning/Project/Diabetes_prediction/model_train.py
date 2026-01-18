@@ -76,9 +76,9 @@ for feature_name in features_after_outlier.columns:
 print(features_after_outlier.head())
 
 # feature engineering
-engineered_features = feature.copy()
-engineered_features["BMI_Age_Interaction"] = (engineered_features["BMI"] * engineered_features["Age"])
-print(engineered_features.head())
+feature_engineering = feature.copy()
+feature_engineering["BMI_Age_Interaction"] = (feature_engineering["BMI"]*feature_engineering["Age"])
+print(feature_engineering.head())
 
 # Train–test split
 X_train, X_test, y_train, y_test = train_test_split(feature, target, test_size=0.2, random_state=42, stratify=target)
