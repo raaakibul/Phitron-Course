@@ -53,6 +53,6 @@ app = gr.Interface(
     fn=predict_gpa,
       inputs=inputs,
         outputs="text", 
-        title="Student HSC Result Predictor")
+        title="Student's HSC Result Predictor")
 
 app.launch(share=True)
