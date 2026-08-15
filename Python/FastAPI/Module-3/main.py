@@ -4,14 +4,14 @@ from fastapi.responses import JSONResponse
 
 
 app = FastAPI()
-
+    
 def load_data():
-    with open('students.json','r') as f:
+    with open('students.json', 'r') as f:
         data = json.load(f)
     return data
 
 def save_data(data):
-    with open('students.json','w') as f:
+    with open('students.json', 'w') as f:
         json.dump(data, f)
 
 @app.get("/")
@@ -29,7 +29,7 @@ def view_students():
 
 
 @app.get("/view/{student_id}")
-def view_student_by_id(student_id: str = Path(..., description="Student id of the student",example="S001")):
+def view_student_by_id(student_id: str = Path(..., description="Student id of the student",examples=["S001"])):
     data = load_data()
     
     if student_id in data:
